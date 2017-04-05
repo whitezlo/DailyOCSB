@@ -1,2 +1,2 @@
-# DailyOCSB
-Plugin for login into Ottawa Catholic School Board. This plugin might help students to automate daily attendance.
+# daily-OCSB
+Daily login into OCSB
