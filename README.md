@@ -7,4 +7,12 @@ Ottawa Catholic School Board requires students to login into D2L portal 5 days a
 ```sh
 $ nightwatch
 ```
-4. Set-up crontab for daily automatic login
+4. Set-up crontab for daily automatic login. 
+Run
+```sh 
+$ crontab -e
+```
+and insert following line:
+```sh 
+30 8 * * * cd ~/root-folder-of-this-repo && nightwatch
+```
